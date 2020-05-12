@@ -12,7 +12,6 @@ function perez!(du,u,p,t)
        du[2] = (ay + By*S)/(1 + S + (u[1]/xy)^n) - gy*u[2]
        du[3] = 1/(1 + (u[1]/xz)^n + (u[2]/yz)^n) - gz*u[3]
 end
-perez! (generic function with 1 method)
 
 u0 = [0.0;0.0;0.0] #Intial Conditions
 tspan = (0.0,50) #Time Span
@@ -37,7 +36,6 @@ function perez!(du,u,p,t)
        du[2] = (ay + By*S)/(1 + S + (u[1]/xy)^n) - gy*u[2]
        du[3] = 1/(1 + (u[1]/xz)^n + (u[2]/yz)^n) - gz*u[3]
 end
-perez! (generic function with 1 method)
 
 u0 = [0.0;0.0;0.0] #Intial Conditions
 tspan = (0.0,50) #Time Span
@@ -62,7 +60,6 @@ function perez!(du,u,p,t)
        du[2] = (ay + By*S)/(1 + S + (u[1]/xy)^n) - gy*u[2]
        du[3] = 1/(1 + (u[1]/xz)^n + (u[2]/yz)^n) - gz*u[3]
 end
-perez! (generic function with 1 method)
 
 u0 = [0.0;0.0;0.0] #Intial Conditions
 tspan = (0.0,50) #Time Span
